@@ -164,7 +164,7 @@
         width: 290px;
         height: 116px;
         left: 950px;
-        top: 350px;
+        top: 370px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -180,7 +180,7 @@
         width: 290px;
         height: 116px;
         left: 1185px;
-        top: 350px;
+        top: 370px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -196,7 +196,7 @@
         width: 290px;
         height: 116px;
         left: 950px;
-        top: 400px;
+        top: 430px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -212,7 +212,7 @@
         width: 290px;
         height: 116px;
         left: 950px;
-        top: 450px;
+        top: 480px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -228,7 +228,7 @@
         width: 290px;
         height: 116px;
         left: 1185px;
-        top: 449px;
+        top: 479px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -245,7 +245,7 @@
         width: 290px;
         height: 116px;
         left: 950px;
-        top: 510px;
+        top: 570px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -254,17 +254,30 @@
         letter-spacing: -0.015em;
         color: #0EE6B7;
         z-index: 3;
+        animation: indicar 3s ease 0s infinite;
+    }
+
+    @keyframes indicar {
+        0% {
+            transform: translateX(0px); 
+        }
+        50% {
+            transform: translateX(200px); 
+        }
+        100% {
+            transform: translateX(0px); 
+        }
     }
     
-    #linea {
+    /*#linea {
         position: absolute;
         width: 2px;
         height: 400px;
-        left: 1359px;
+        left: 1400px;
         top: 316px;
         background: #0EE6B7;
         z-index: 4;
-    }
+    }*/
     
     #foto {
         position: absolute;
